@@ -1,0 +1,144 @@
+body {
+    background-color: #1d1d1f;
+    transition: background-color .5s;
+}
+h1 {
+    margin:0px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 175px;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color .5s;
+    color: #ffffff;
+}
+h2 {
+    margin: 0px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: transparent;
+    transition: background-color .5s;
+    color: #ffffff;
+    font-size: 50px;
+}
+h3 {
+    margin:8px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: transparent;
+    transition: background-color .5s;
+    color: #ffffff;
+    font-size: 38px;
+}
+ul {
+    margin: 0px;
+    list-style: none;
+    font-family: 'League Spartan', sans-serif;
+    background-color: transparent;
+    transition: background-color .5s;
+    color: #ffffff;
+    font-size: 25px;
+}
+p {
+    margin:0px;
+    font-family: 'League Spartan', sans-serif;
+    background-color: transparent;
+    transition: background-color .5s;
+    color: #ffffff;
+    font-size: 25px;
+}
+h1:hover {
+    background-color:#273033;
+    color: #F99236;
+}
+h2:hover {
+    background-color:#273033;
+    color: #F99236;
+}
+#skills:hover, #skills h3:hover, #skills ul:hover {
+    background-color:#273033;
+    color: #F99236;
+}
+#xp:hover, #xp p:hover, #xp h3:hover {
+    background-color:#273033;
+    color: #F99236;
+}
+#datos_pers:hover {
+    background-color:#273033;
+    color: #F99236;
+}
+* {
+    box-sizing: border-box;
+}
+#perfil {
+    width: 8.33%;
+    float: left;
+}
+h1 {
+    width: 91.66%;
+    float: left;
+}
+h2 {
+    width: 25%;
+    float: left;
+}
+#datos_pers {
+    width: 75%;
+    float: left;
+}
+#skills {
+    width: 75%;
+    float: left;
+}
+#xp {
+    width: 75%;
+    float: left;
+}
+@media only screen and (max-width: 992px) {
+    #perfil {
+      width: 100%;
+      height: auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    h1, h2, #datos_pers, #skills, #xp {
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    h1 {
+      font-size: 110px;
+      text-align: left;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #perfil {
+      width: 100%;
+      height: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1, h2, #datos_pers, #skills, #xp {
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 80px;
+      text-align: left;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #perfil {
+      width: 100%;
+      height: auto;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1, h2, #datos_pers, #skills, #xp {
+      width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 75px;
+      text-align: left;
+    }
+}
